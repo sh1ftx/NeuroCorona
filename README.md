@@ -60,8 +60,7 @@ NeuroCorona/
 │       ├── df_states.csv     # Dados por estado
 │       ├── geojson/          # Arquivos geográficos
 │       └── assets/           # Estilo do dashboard
-├── init.sh                   # Instalador automático do projeto
-├── config.sh                 # Script de configuração (em breve)
+├── config.sh                 # Script de configuração, instalações e execução 
 └── README.md                 # Documentação do projeto
 ```
 
@@ -75,7 +74,7 @@ NeuroCorona/
 - **Pandas**
 - **JSON & GeoJSON**
 
-O script `init.sh` automatiza a instalação de dependências, criação de ambiente virtual e execução do projeto.
+O script `config.sh` automatiza a instalação de dependências, criação de ambiente virtual e execução do projeto.
 
 ---
 
@@ -94,7 +93,8 @@ O script `init.sh` automatiza a instalação de dependências, criação de ambi
 git clone https://github.com/sh1ftx/NeuroCorona.git
 cd NeuroCorona
 
-# Execute o instalador automático
+# Dar permissão e executar o script de instalação
+chmod +x config.sh
 ./config.sh
 ```
 
